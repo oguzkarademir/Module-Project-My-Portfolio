@@ -1,43 +1,50 @@
-# JavaScript Quiz
+# Development Strategy
 
-...
+> `Asyncronous week 2`
 
----
+## My-portfolio
 
-## User Story Dependencies
+- In this project, I wanted to pull and exhibit my projects from Github Api using the fetch method.
 
-[Story Dependency Diagram](https://excalidraw.com/)
+### WIREFRAME
 
----
-
-## WIREFRAME
-
-![wireframe]()
+![wireframe](/public/assets/wireframe_my_projects.png)
 
 ---
 
-## 0.Setup
+### 0. Set-Up
+
+_A User can see my initial repository and live demo_
+
+### Repository
+
+- Created a new repository from this [template](https://github.com/HackYourFutureBelgium/starter-basic-import-export)
+- Cloned the repository
+- Added a wireframe
+- Started the development strategy
+- Create the initial HTML and CSS structure
+- Pushed the changes to GitHub
+- Turned on GitHub Pages
 
 ---
 
-## 1. Initialize Application
+## 1. 
 
-__As a user I want to see the initial page when I load the site__
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-- ...
+__As a user __
 
-### REPO
+### Repo
 
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after completion.
+This user story has been developed through a branch called ``
 
-### Task A
+### HTML
 
-### Task B
+- 
 
-### Task ...
+### CSS
 
----
+- 
 
-## ...
+### Javascript
+
+- 

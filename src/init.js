@@ -1,4 +1,6 @@
 'use strict';
 
+import { handler } from "./handler/handler-try.js";
 
-console.log('hello');
+document.getElementById('list-name-input')
+    .addEventListener('click', handler);
