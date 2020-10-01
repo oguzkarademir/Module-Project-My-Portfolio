@@ -28,23 +28,23 @@ _A User can see my initial repository and live demo_
 
 ---
 
-## 1. 
+## 1. Render all starred project 
 
 
-__As a user __
+__As a user I want to see render function of the projects__
 
 ### Repo
 
-This user story has been developed through a branch called ``
+This user story has been developed through a branch called `render`
 
 ### HTML
 
-- 
+- Nothing to change
 
 ### CSS
 
-- 
+- Nothing to change
 
 ### Javascript
 
-- 
+- Created a render function to use in handler
