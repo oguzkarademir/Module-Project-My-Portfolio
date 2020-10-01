@@ -1,11 +1,13 @@
-import { App } from "./app.js":
+import { App } from '../app.js';
 
-export const handler = (event) => {
+export const getProjectHandler = (event) => {
     
+    debugger;
+    const userTarget = event.target;
+    if (userTarget.innerHTML === 'Show') {
+        userTarget.style.display = 'none'
+    }
+    const newApp = new App();
 
-    // fetch('https://api.github.com/users/oguzkarademir/starred')
-    //     .then(response => response.json())
-    //     .then(data => {
-    //         console.log(data)
-    //     })
+    newApp.fetchRepo()
 }

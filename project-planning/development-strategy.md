@@ -65,3 +65,26 @@ This user story has been developed through a branch called `starred_url`
 ### Javascript
 
 - Created a function to collect all url of starred repository in class object
+
+---
+
+## 3. Fetching information 
+
+__As a user I want to see all project that i want to exhibit when i click the `show`button__
+### Repo
+
+This user story has been developed through a branch called `fetching`
+
+### HTML
+
+- Nothing to change
+
+### CSS
+
+- Added some css style
+
+### Javascript
+
+- Created a function to fetch all starred repository in class object
+- Added property in class object
+- Created a function to correct the repository name
