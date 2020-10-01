@@ -70,7 +70,7 @@ export class App {
                  this.name =this.capitalize(data.name);
                  this.description = data.description;
                  this.source = data.html_url;
-                 this.live = 'https://' + data.owner.login + '.github.io/' + data.name;  
+                 this.live = 'https://' + data.owner.login + '.github.io/' + data.name + '/index.html';  
              })
              .then(this.render.bind(this))
         }
