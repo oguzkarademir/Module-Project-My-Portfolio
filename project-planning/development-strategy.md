@@ -30,9 +30,6 @@ _A User can see my initial repository and live demo_
 
 ## 1. Render all starred project 
 
-
-__As a user I want to see render function of the projects__
-
 ### Repo
 
 This user story has been developed through a branch called `render`
@@ -48,3 +45,23 @@ This user story has been developed through a branch called `render`
 ### Javascript
 
 - Created a render function to use in handler
+
+---
+
+## 2. Fetch all starred repository url in an array 
+
+### Repo
+
+This user story has been developed through a branch called `starred_url`
+
+### HTML
+
+- Nothing to change
+
+### CSS
+
+- Nothing to change
+
+### Javascript
+
+- Created a function to collect all url of starred repository in class object

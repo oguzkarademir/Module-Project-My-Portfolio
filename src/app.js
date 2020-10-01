@@ -34,4 +34,14 @@ export class App {
 
         return document.getElementsByClassName('container').appendChild(divEl); 
     }
+
+    fetchRepo = () => {
+        fetch('https://api.github.com/users/oguzkarademir/starred')
+          .then(response => response.json())
+          .then(data => {
+              for(let i = 0; i < data.length; i++){
+                 this.repoUrl.push(data[i].url)
+              }
+          })
+    }
 }
