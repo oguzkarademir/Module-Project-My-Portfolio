@@ -66,22 +66,27 @@ h3 {
     height: fit-content;
     text-align: center;
     margin: 10px;
-    padding: 10px;
-    background-color: rgb(68, 223, 184);
+    background-color: white;
     border-radius: 5px;
 }
 .row h4 {
     height: fit-content;
+    margin-top: 10px;
+    color: red;
+    font-size: 1.2rem;
 }
 .row p {
     height: fit-content;
+    color:rgb(7, 124, 13);
+    font-style: italic;
+    font-size: 0.9rem;
 }
 .row form {
     display: flex;
     justify-content: space-between;
 }
 .row form button {
-    background-color: rgb(68, 223, 184);
+    background-color: rgba(68, 189, 236, 0.383);
     border-radius: 10px;
     border: none;
     margin: 15px;
